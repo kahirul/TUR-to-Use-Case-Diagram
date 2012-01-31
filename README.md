@@ -1,7 +1,7 @@
 #TUR to Use Case Diagram
 Convert Textual User Requirement(TUR) to Use Case Diagram Automatically using Stanford CoreNLP and Visual Paradigm
-
-by: Khairul Fahmi [kyu.helf at gmail.com]
+The algorithm loosely based on [Use Case Paths Model Revealing Through Natural Language Requirements Analysis] (http://nlping.com/Articles/ICAI_07.pdf "Use Case Paths Model Revealing Through Natural Language Requirements Analysis")
+By: Khairul Fahmi (kyu.helf at gmail.com)
 
 ##Dependencies
 + stanford-corenlp.jar

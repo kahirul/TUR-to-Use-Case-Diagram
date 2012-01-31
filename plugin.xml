@@ -1,0 +1,21 @@
+<plugin
+	id="com.vp.plugins.ucdgen" 
+	name="TUR to UCD"
+	description="Generate UCD from TUR."
+	provider="Visual Paradigm"
+	class="com.vp.plugins.ucdgen.UseCaseDiagramGenerator">
+        
+	<actionSets>
+		<actionSet id="com.vp.plugins.ucdgen.actionset">
+			<action 
+				id="com.vp.plugins.ucdgen.actions.UseCaseDiagramGeneratorActionController"
+				actionType="generalAction"
+				label="Generate UCD from TUR"
+				tooltip="Generate UCD from TUR"
+				style="normal"
+				menuPath="Tools/UCDGen">
+				<actionController class="com.vp.plugins.ucdgen.actions.UseCaseDiagramGeneratorActionController" />
+			</action>
+		</actionSet>
+	</actionSets>
+</plugin>
